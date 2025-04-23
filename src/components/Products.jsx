@@ -1,5 +1,5 @@
 import { useGetAllProductsQuery } from "../lib/api/productsApi";
-import ProductCard from "./productCard";
+import ProductCard from "./ProductCard";
 
 const Products = () => {
   const { data, isLoading, error } = useGetAllProductsQuery();
